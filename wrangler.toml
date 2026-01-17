@@ -1,0 +1,3 @@
+name = "cdn"
+main = "/index.html"
+compatibility_date = "2026-01-18"
