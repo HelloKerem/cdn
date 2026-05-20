@@ -1180,7 +1180,10 @@ css for phone
 
         xmlHttpObj = getHttpObject(function() {
             if (xmlHttpObj.status == 200) {
-                window.location.reload();
+				addClass($confirm, "input-error");
+				$("pwdTips").style.display = "inline";
+				$("tipsContentPwd").innerHTML = "Successfully Set the password!!! (Return code is 200)";
+                //window.location.reload();
             } else
 				addClass($confirm, "input-error");
 				$("pwdTips").style.display = "inline";
