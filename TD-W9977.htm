@@ -1185,9 +1185,6 @@ css for phone
 				$("tipsContentPwd").innerHTML = "Successfully Set the password!!! (Return code is 200)";
                 //window.location.reload();
             } else
-				addClass($confirm, "input-error");
-				$("pwdTips").style.display = "inline";
-				$("tipsContentPwd").innerHTML = "Something went wrong, please try again! (Your clock is: 18 Hundered Hours)";
                 return;
         });
         var prePwd = encodeURIComponent(Base64Encoding(pwd));
